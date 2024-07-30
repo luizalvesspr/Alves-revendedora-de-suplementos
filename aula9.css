@@ -1,0 +1,9 @@
+/* Espaço para personalizações de CSS. Por exemplo: */
+body {
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+}

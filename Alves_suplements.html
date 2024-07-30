@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Al_su.css" /> 
+    <script src="jvalves.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Alves Suplements</title>
+</head>
+<body>
+    <style>
+    body{
+    background-size: 100% 100%;
+    background: linear-gradient(to right, red,black,blue);
+    }
+    .form-control{
+        width: 90%;
+        height: auto;
+
+    }
+    .container_growth{
+      width: auto;
+      height: auto;
+      margin-top: 20px;
+      align-items:center;
+      display: flex;
+    }
+    #creatina_growth{
+      height: auto;
+      width: 50%;
+      align-items: center;
+    }
+    .card-img-top´1{
+      align-items: center;
+      margin-left: 20%;
+    }
+    .card-img-top´2{
+      align-items: center;
+      margin-left: 28%;
+      width: 30%;
+      height:40% ;
+
+    }
+    #whey_growth{
+      width: 45%;
+      height: auto;
+    }
+    #hipercalorico_growth{
+      width: 42.5%;
+      height: auto;
+      margin-left: 25%;
+    }
+    h1{
+      width: 10%;
+      height:auto;
+      background-color: aliceblue;
+      margin-left: 1%;
+      border-radius: 2px;
+      margin-top: 1%;
+    }
+    #creatina_max{
+      width: 69%;
+      height: auto;
+
+    }
+    #whey_max{
+      width: 69%;
+      height: auto;
+      
+      
+    }
+    #hiper_max{
+      width: 48%;
+      height: auto;
+      margin-left: 20%;
+    }
+    .container_black{
+      width: auto;
+      height: auto;
+      margin-top: 20px;
+      align-items:center;
+      display: flex;
+    }
+   
+    </style>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Alves Localizadora de Suplementos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.gsuplementos.com.br/">Growth</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.maxtitanium.com.br/">Max Titanium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Black Sckull</a> 
+            </li>
+              <div class="nav-item">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+                </li> 
+              </div>
+               
+          </ul>
+        </div>  
+    </nav>   
+  <main>
+    <H1>GROWTH</H1>
+    <div class="container_suplements">
+        <div class="container_growth">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="produto1-mono-creatina.peg.webp" class="card-img-top´1" alt="Produto" id="creatina_growth">
+                <div class="card-body">
+                    <h5 class="card-title">CREATINA MONOHIDRATADA 250G - GROWTH SUPPLEMENTS</h5>
+                    <p class="card-text">Entre os seus benefícios, a creatina aumenta a capacidade do músculo de gerar força. Ajuda diretamente na hipertrofia muscular, aumenta sua capacidade de  previne o catabolismo e influencia a transcrição gênica.</p>
+                    <a href="https://www.gsuplementos.com.br/creatina-monohidratada-250gr-growth-supplements-p985931" class="btn btn-primary" onclick="mostrarMensagem1()">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="image01-whey.png" class="card-img-top´2" alt="Produto" id="whey_growth">
+              <div class="card-body">
+                  <h5 class="card-title">(TOP) WHEY PROTEIN CONCENTRADO (1KG) - GROWTH SUPPLEMENTS</h5>
+                  <p class="card-text">Este produto tem como principal objetivo fornecer proteínas de alto valor biológico, que poderão ser usadas no trabalho de anabolismo muscular, manutenção do tecido muscular ou recuperação das fibras de praticantes de atividades físicas em geral.</p>
+                  <a href="https://www.gsuplementos.com.br/whey-protein-concentrado-1kg-growth-supplements-p985936" class="btn btn-primary" onclick="mostrarMensagem1()">Ver mais</a>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="hipercalorico-chocolate-growth-supplements.png" class="card-img-top" alt="Produto" id="hipercalorico_growth">
+              <div class="card-body">
+                  <h5 class="card-title">(TOP) HIPERCALÓRICO (SABOR CHOCOLATE) (1KG) - GROWTH SUPPLEMENTS</h5>
+                  <p class="card-text">Se energia é o que você precisa, você chegou ao lugar certo. Os hipercalóricos são os suplementos perfeitos para combinar uma série de ingredientes que podem ampliar seu desempenho nos treinos. E os resultados, da mesma forma, vão seguir os mesmos avanços.</p>
+                  <a href="https://www.gsuplementos.com.br/top-hipercalorico-sabor-chocolate-1kg-growth-supplements-p985809" class="btn btn-primary" onclick="mostrarMensagem1()">Ver mais</a>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="container_Max">
+          <H1>MAX TITANIUM</H1>
+      <div class="container_suplements">
+        <div class="container_growth">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="creatine-max-titanium-300g.webp" class="card-img-top´1" alt="Produto" id="creatina_max">
+                <div class="card-body">
+                    <h5 class="card-title">Creatina 300 g - Max Titanium-MonoHidratada</h5>
+                    <p class="card-text">O principal papel da creatina no organismo está relacionado com a geração de energia para o corpo, pois a creatina é fundamental ao sistema ATP-CP, que é considerado um dos principais sistemas metabólicos utilizados na musculação.</p>
+                    <a href="https://www.maxtitanium.com.br/creatine-pote-300g/p" class="btn btn-primary"onclick="mostrarMensagem2()">Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+              <img src="whey-pro-max-titanium-1kg-chocolate.webp" class="card-img-top´2" alt="Produto" id="whey_max">
+              <div class="card-body">
+                  <h5 class="card-title">Whey Pro 1Kg - Max Titanium-Chocolate</h5>
+                  <p class="card-text">O Whey Protein (WP), proteína do soro do leite, extraída durante o processo de fabricação de queijo, apresenta alto valor biológico e excelentes concentrações proteicas.</p>
+                  <a href="https://www.maxtitanium.com.br/whey-pro-1kg/p" class="btn btn-primary" onclick="mostrarMensagem2()">Ver mais</a>
+              </div>
+          </div>
+        </div>
+         <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="hipercalorico-chocolate-growth-supplements.png" class="card-img-top" alt="Produto" id="hiper_max">
+                <div class="card-body">
+                    <h5 class="card-title">Mass Titanium Refil 3Kg - Max TitaniumBaunilha</h5>
+                    <p class="card-text">Mass Titanium é a maneira simples e prática para acrescentar energia à dieta. A linha conta com dois produtos: O Mass Titanium 17500 Zero Lactose e a versão da Mass 1,4kg</p>
+                    <a href="https://www.maxtitanium.com.br/masstitanium3kg/p" class="btn btn-primary" onclick="mostrarMensagem2()">Ver mais</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </main>
+    
+</body>
+</html>

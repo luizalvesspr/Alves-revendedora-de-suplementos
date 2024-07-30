@@ -1,0 +1,26 @@
+Nome do site?Alves revendedora de suplementos
+Tema cor site? vermelho preto e azul 
+Produtos?Suplementos de outras marcas diversas
+
+
+Html Java CSS
+{
+backending e banco de dados
+{
+pagina login
+Email
+senha 
+backending
+banco de dados
+}
+pagina principal
+layout
+nav bar
+div da growth 
+  com cada produto
+div da max
+  com cada produto
+div da Black sckull
+  com cada produto
+campo dos comentarios
+}
